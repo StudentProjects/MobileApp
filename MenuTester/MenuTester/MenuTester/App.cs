@@ -12,7 +12,7 @@ namespace MenuTester
         public App()
         {
 
-            MainPage = new HomePage();
+            MainPage = new Start();
 
         }    
         protected override void OnStart()

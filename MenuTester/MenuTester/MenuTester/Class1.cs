@@ -9,25 +9,27 @@ namespace MenuTester
 {
     public class HomePage : MasterDetailPage
     {
-        public HomePage()
+        public HomePage(bool isAdmin)
         {
             // Set up masterDetailPage
             Label header = new Label
             {
                 Text = "Start menu",
                 
-                Font = Font.SystemFontOfSize(NamedSize.Medium)
-                             .WithAttributes(FontAttributes.Bold),
                 
                 HorizontalOptions = LayoutOptions.Center
             };
 
             // Have an array of all the pages names
-            string[] NamesOfPages = 
+            List<string> NamesOfPages = new List<string>();
+            NamesOfPages.Add("Google");
+            NamesOfPages.Add("Hitta");
+
+            if (isAdmin)
             {
-             "Google",
-             "Hitta",
-            };
+                NamesOfPages.Add("Aftonbladet");
+                NamesOfPages.Add("Tieto");
+            }            
 
             //Create ListView for the master page
             ListView masterList = new ListView
@@ -77,6 +79,14 @@ namespace MenuTester
                 else if (args.SelectedItem.ToString() == "Google") 
                 {
                     myWebView.Source = "http://www.google.se";
+                }
+                else if (args.SelectedItem.ToString() == "Aftonbladet")
+                {
+                    myWebView.Source = "http://www.aftonbladet.se";
+                }
+                else if (args.SelectedItem.ToString() == "Tieto")
+                {
+                    myWebView.Source = "http://www.tieto.se";
                 }
                 this.IsPresented = false;
 

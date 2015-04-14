@@ -1,0 +1,14 @@
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\bin\iPhoneSimulator\Debug\MenuTesteriOS.exe
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\bin\iPhoneSimulator\Debug\MenuTesteriOS.pdb
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\bin\iPhoneSimulator\Debug\MenuTester.dll
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\bin\iPhoneSimulator\Debug\MenuTester.pdb
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\bin\iPhoneSimulator\Debug\MenuTester.dll.mdb
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.xml
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\obj\iPhoneSimulator\Debug\MenuTester.iOS.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\obj\iPhoneSimulator\Debug\MenuTesteriOS.exe
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\obj\iPhoneSimulator\Debug\MenuTesteriOS.pdb
+C:\Users\Sam\documents\visual studio 2013\Projects\MenuTester\MenuTester\MenuTester.iOS\obj\iPhoneSimulator\Debug\

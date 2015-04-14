@@ -1,10 +1,10 @@
-C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester.Droid\bin\Debug\MenuTester.Droid.dll
-C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\FormsViewGroup.dll
-C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\MenuTester\MenuTester\bin\Debug\MenuTester.dll
-C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\packages\Xamarin.Android.Support.v4.19.0.2\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
-C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Core.dll
-C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll
-C:\Users\Sam\Documents\Visual Studio 2013\Projects\MenuTester\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll
+C:\Users\Sam\documents\visual studio 2013\Projects\MenuTester\MenuTester\MenuTester.Droid\bin\Debug\MenuTester.Droid.dll
+C:\Users\Sam\documents\visual studio 2013\Projects\MenuTester\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\FormsViewGroup.dll
+C:\Users\Sam\documents\visual studio 2013\Projects\MenuTester\MenuTester\MenuTester\bin\Debug\MenuTester.dll
+C:\Users\Sam\documents\visual studio 2013\Projects\MenuTester\packages\Xamarin.Android.Support.v4.19.0.2\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
+C:\Users\Sam\documents\visual studio 2013\Projects\MenuTester\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Core.dll
+C:\Users\Sam\documents\visual studio 2013\Projects\MenuTester\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll
+C:\Users\Sam\documents\visual studio 2013\Projects\MenuTester\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.Concurrent.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ComponentModel.Annotations.dll
