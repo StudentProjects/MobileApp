@@ -2,117 +2,77 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Xamarin.Forms;
 
 namespace MenuTester
 {
-    public class HomePage : MasterDetailPage
-    {
-        public HomePage(bool isAdmin)
-        {
-            // Set up masterDetailPage
-            Label header = new Label
-            {
-                Text = "Start menu",
+	public class HomePage : MasterDetailPage
+	{
+		public HomePage (bool isAdmin)
+		{
+			// Set up masterDetailPage
+			Label header = new Label {
+				Text = "Start menu",
                 
                 
-                HorizontalOptions = LayoutOptions.Center
-            };
+				HorizontalOptions = LayoutOptions.Center
+			};
 
-            // Have an array of all the pages names
-            List<string> NamesOfPages = new List<string>();
-            NamesOfPages.Add("Google");
-            NamesOfPages.Add("Hitta");
+			// Have an array of all the pages names
+			List<string> NamesOfPages = new List<string> ();
+			NamesOfPages.Add ("Google");
+			NamesOfPages.Add ("Hitta");
 
-            if (isAdmin)
-            {
-                NamesOfPages.Add("Aftonbladet");
-                NamesOfPages.Add("Tieto");
-            }            
+			if (isAdmin) {
+				NamesOfPages.Add ("Aftonbladet");
+				NamesOfPages.Add ("Tieto");
+			}            
 
-            //Create ListView for the master page
-            ListView masterList = new ListView
-            {   
+			//Create ListView for the master page
+			ListView masterList = new ListView {   
                 
-                ItemsSource = NamesOfPages,
-            };
+				ItemsSource = NamesOfPages,
+			};
 
-            this.Master = new ContentPage
-            {
-                Title = "master",
-                Content = new StackLayout
-                {
-                    Children =
-                    {
-                        header,
-                        masterList
-                    },
-                }
-            };
+			this.Master = new ContentPage {
+				Title = "master",
+				Content = new StackLayout {
+					Children = {
+						header,
+						masterList
+					},
+				}
+			};
 
-            string[] homePageItems = { "Google", "Hitta"};
-            ListView myHomeView = new ListView
-            {
-                ItemsSource = homePageItems,
-            };
-            var myHomePage = new ContentPage();
-            WebView myWebView = new WebView
-            { 
-                 Source = "http://www.google.com"
+           
+			var myHomePage = new ContentPage ();
+			WebView myWebView = new WebView { 
+				Source = "http://www.google.com"
             
-            };
-            myHomePage.Content = myWebView;
-            this.Detail = myHomePage;
+			};
+			myHomePage.Content = myWebView;
+			this.Detail = myHomePage;
 
-            masterList.ItemSelected += (sender, args) =>
-            {
-                this.Detail.BindingContext = args.SelectedItem;
+			masterList.ItemSelected += (sender, args) => {
+				this.Detail.BindingContext = args.SelectedItem;
                
-                
              
-                //put go to one of the selected pages
-                if (args.SelectedItem.ToString() == "Hitta")
-                {
-                    myWebView.Source = "http://www.hitta.se";
-                }
-                else if (args.SelectedItem.ToString() == "Google") 
-                {
-                    myWebView.Source = "http://www.google.se";
-                }
-                else if (args.SelectedItem.ToString() == "Aftonbladet")
-                {
-                    myWebView.Source = "http://www.aftonbladet.se";
-                }
-                else if (args.SelectedItem.ToString() == "Tieto")
-                {
-                    myWebView.Source = "http://www.tieto.se";
-                }
-                this.IsPresented = false;
+				//put go to one of the selected pages
+				if (args.SelectedItem.ToString () == "Hitta") {
+					myWebView.Source = "http://www.hitta.se";
+				} else if (args.SelectedItem.ToString () == "Google") {
+					myWebView.Source = "http://www.google.se";
+				} else if (args.SelectedItem.ToString () == "Aftonbladet") {
+					myWebView.Source = "http://www.aftonbladet.se";
+				} else if (args.SelectedItem.ToString () == "Tieto") {
+					myWebView.Source = "http://www.tieto.se";
+				}
+				this.IsPresented = false;
 
-            };
-            Label myHomeHeader = new Label
-            {
-                Text = "Home",
-                HorizontalOptions = LayoutOptions.Center
-            };
+			};
 
 
-        }
+		}
         
-        //protected override void OnStart()
-        //{
-        //    // Handle when your app starts
-        //}
-
-        //protected override void OnSleep()
-        //{
-        //    // Handle when your app sleeps
-        //}
-
-        //protected override void OnResume()
-        //{
-        //    // Handle when your app resumes
-        //}
-    }
+	}
 }

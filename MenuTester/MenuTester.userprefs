@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="MenuTester/MenuTester/MenuTester.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets">
+    <Files>
+      <File FileName="MenuTester/MenuTester/App.cs" Line="1" Column="1" />
+      <File FileName="MenuTester/MenuTester/Class1.cs" Line="54" Column="12" />
+      <File FileName="MenuTester/MenuTester/packages.config" Line="1" Column="1" />
+      <File FileName="MenuTester/MenuTester/Start.cs" Line="1" Column="1" />
+      <File FileName="../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
