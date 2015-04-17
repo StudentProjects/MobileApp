@@ -12,9 +12,7 @@ namespace MenuTester
 		{
 			// Set up masterDetailPage
 			Label header = new Label {
-				Text = "Start menu",
-                
-                
+				Text = "Menu",
 				HorizontalOptions = LayoutOptions.Center
 			};
 
@@ -30,28 +28,39 @@ namespace MenuTester
 
 			//Create ListView for the master page
 			ListView masterList = new ListView {   
-                
 				ItemsSource = NamesOfPages,
 			};
+
+            ListView optionsList = new ListView
+            {   
+                ItemsSource = new List<string>() {"Settings","Logout"},
+                VerticalOptions = LayoutOptions.End,
+
+            };
 
 			this.Master = new ContentPage {
 				Title = "master",
 				Content = new StackLayout {
+                    Padding = new Thickness(0, Device.OnPlatform(20, 0, 0), 0, 5),
 					Children = {
 						header,
-						masterList
+						masterList,
+                        optionsList
 					},
 				}
 			};
+            WebView myWebView = new WebView {
+				        Source = "http://www.google.com"
+            };
 
-           
-			var myHomePage = new ContentPage ();
-			WebView myWebView = new WebView { 
-				Source = "http://www.google.com"
-            
+           	this.Detail = new ContentPage {
+				Content = new ContentView {
+                    Padding = new Thickness(0, Device.OnPlatform(20, 0, 0), 0, 0),
+	                Content = myWebView
+				}
 			};
-			myHomePage.Content = myWebView;
-			this.Detail = myHomePage;
+			var myHomePage = new ContentPage ();
+
 
 			masterList.ItemSelected += (sender, args) => {
 				this.Detail.BindingContext = args.SelectedItem;
@@ -71,7 +80,20 @@ namespace MenuTester
 
 			};
 
-
+            optionsList.ItemSelected += async (sender, args) =>
+            {
+                this.Detail.BindingContext = args.SelectedItem;
+                //put go to one of the selected pages
+                if (args.SelectedItem.ToString() == "Settings")
+                {
+                    await DisplayAlert("hej", "Här ska det finnas settings", "hejdå");
+                }
+                else if (args.SelectedItem.ToString() == "Logout")
+                {
+                    await Navigation.PopModalAsync();
+                }
+                this.IsPresented = false;
+            };
 		}
         
 	}

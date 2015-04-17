@@ -1,0 +1,9 @@
+c:\users\sam\documents\visual studio 2013\Projects\MenuTester\MenuTester\MenuTester\obj\Debug\MenuTester.csprojResolveAssemblyReference.cache
+c:\users\sam\documents\visual studio 2013\Projects\MenuTester\MenuTester\MenuTester\bin\Debug\MenuTester.dll
+c:\users\sam\documents\visual studio 2013\Projects\MenuTester\MenuTester\MenuTester\bin\Debug\MenuTester.pdb
+c:\users\sam\documents\visual studio 2013\Projects\MenuTester\MenuTester\MenuTester\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\sam\documents\visual studio 2013\Projects\MenuTester\MenuTester\MenuTester\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\sam\documents\visual studio 2013\Projects\MenuTester\MenuTester\MenuTester\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\sam\documents\visual studio 2013\Projects\MenuTester\MenuTester\MenuTester\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\sam\documents\visual studio 2013\Projects\MenuTester\MenuTester\MenuTester\obj\Debug\MenuTester.dll
+c:\users\sam\documents\visual studio 2013\Projects\MenuTester\MenuTester\MenuTester\obj\Debug\MenuTester.pdb
