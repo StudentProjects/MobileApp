@@ -1,9 +1,0 @@
-c:\users\sam\documents\visual studio 2013\Projects\XamlMenuTester\XamlMenuTester\XamlMenuTester\bin\Debug\XamlMenuTester.dll
-c:\users\sam\documents\visual studio 2013\Projects\XamlMenuTester\XamlMenuTester\XamlMenuTester\bin\Debug\XamlMenuTester.pdb
-c:\users\sam\documents\visual studio 2013\Projects\XamlMenuTester\XamlMenuTester\XamlMenuTester\bin\Debug\Xamarin.Forms.Core.dll
-c:\users\sam\documents\visual studio 2013\Projects\XamlMenuTester\XamlMenuTester\XamlMenuTester\bin\Debug\Xamarin.Forms.Xaml.dll
-c:\users\sam\documents\visual studio 2013\Projects\XamlMenuTester\XamlMenuTester\XamlMenuTester\bin\Debug\Xamarin.Forms.Core.xml
-c:\users\sam\documents\visual studio 2013\Projects\XamlMenuTester\XamlMenuTester\XamlMenuTester\bin\Debug\Xamarin.Forms.Xaml.xml
-c:\users\sam\documents\visual studio 2013\Projects\XamlMenuTester\XamlMenuTester\XamlMenuTester\obj\Debug\XamlBase.xaml.g.cs
-c:\users\sam\documents\visual studio 2013\Projects\XamlMenuTester\XamlMenuTester\XamlMenuTester\obj\Debug\XamlMenuTester.dll
-c:\users\sam\documents\visual studio 2013\Projects\XamlMenuTester\XamlMenuTester\XamlMenuTester\obj\Debug\XamlMenuTester.pdb
