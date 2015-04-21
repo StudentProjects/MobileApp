@@ -8,7 +8,7 @@ namespace MenuTester
 {
 	public class HomePage : MasterDetailPage
 	{
-		public HomePage (bool isAdmin)
+        public HomePage (bool isAdmin)
 		{
 			// Set up masterDetailPage
 			Label header = new Label {
@@ -16,20 +16,22 @@ namespace MenuTester
 				HorizontalOptions = LayoutOptions.Center
 			};
 
-			// Have an array of all the pages names
-			List<string> NamesOfPages = new List<string> ();
-			NamesOfPages.Add ("Google");
-			NamesOfPages.Add ("Hitta");
-
-			if (isAdmin) {
-				NamesOfPages.Add ("Aftonbladet");
-				NamesOfPages.Add ("Tieto");
-			}            
-
-			//Create ListView for the master page
+            List<MenuItem> items = new List<MenuItem>();
+            items.Add(new MenuItem { Text = "Hitta" });
+            items.Add(new MenuItem { Text = "Google" });
+            if (isAdmin)
+            {
+                items.Add(new MenuItem { Text = "Aftonbladet" });
+                items.Add(new MenuItem { Text = "Tieto" });
+            }   
+            //Create ListView for the master page
 			ListView masterList = new ListView {   
-				ItemsSource = NamesOfPages,
+				ItemsSource = items,
 			};
+            
+
+            masterList.ItemTemplate = new DataTemplate(typeof(TextCell));
+            masterList.ItemTemplate.SetBinding(TextCell.TextProperty, "Text");
 
             ListView optionsList = new ListView
             {   
@@ -49,7 +51,8 @@ namespace MenuTester
 					},
 				}
 			};
-            WebView myWebView = new WebView {
+            WebView myWebView = new WebView
+            {
 				        Source = "http://www.google.com"
             };
 
@@ -61,19 +64,25 @@ namespace MenuTester
 			};
 			var myHomePage = new ContentPage ();
 
-
+            
 			masterList.ItemSelected += (sender, args) => {
 				this.Detail.BindingContext = args.SelectedItem;
-               
-             
+
 				//put go to one of the selected pages
-				if (args.SelectedItem.ToString () == "Hitta") {
+                if (((MenuItem)args.SelectedItem).Text == "Hitta")
+                {
 					myWebView.Source = "http://www.hitta.se";
-				} else if (args.SelectedItem.ToString () == "Google") {
+                }
+                else if (((MenuItem)args.SelectedItem).Text == "Google")
+                {
 					myWebView.Source = "http://www.google.se";
-				} else if (args.SelectedItem.ToString () == "Aftonbladet") {
+                }
+                else if (((MenuItem)args.SelectedItem).Text == "Aftonbladet")
+                {
 					myWebView.Source = "http://www.aftonbladet.se";
-				} else if (args.SelectedItem.ToString () == "Tieto") {
+                }
+                else if (((MenuItem)args.SelectedItem).Text == "Tieto")
+                {
 					myWebView.Source = "http://www.tieto.se";
 				}
 				this.IsPresented = false;
@@ -95,6 +104,5 @@ namespace MenuTester
                 this.IsPresented = false;
             };
 		}
-        
 	}
 }
